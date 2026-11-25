@@ -4,6 +4,16 @@
 
 [Türkçe aşağıda](#türkçe)
 
+## Screenshots
+
+| Kiosk mode | Choosing allowed apps |
+|---|---|
+| <img src="docs/screenshots/01-kiosk.png" alt="Kiosk mode with allowed apps"> | <img src="docs/screenshots/02-uygulama-secimi.png" alt="Admin view: adding and removing allowed apps"> |
+| **Password-protected exit** | **Settings** |
+| <img src="docs/screenshots/03-sifre.png" alt="Exit kiosk mode password dialog"> | <img src="docs/screenshots/04-ayarlar.png" alt="Settings screen"> |
+
+<sub>Rendered from the app's own widgets in a Flutter test on a 1280×800 tablet layout. The app list and icons are demo data.</sub>
+
 ## Features
 
 - **Kiosk mode** with Android Lock Task (screen pinning); full lockdown when the app is the **Device Owner**.
@@ -80,6 +90,8 @@ MIT
 ## Türkçe
 
 **Flutter ve Kotlin ile geliştirilmiş Android kiosk launcher'ı.** Cihazı seçilen uygulamalarla sınırlar; ortak kullanılan tabletler, bilgi ekranları ve saha cihazları için. Yönettiği uygulamaları uzaktan güncelleyebilir.
+
+Ekran görüntüleri için yukarıdaki [Screenshots](#screenshots) bölümüne bakın (uygulama listesi ve ikonlar demo veridir).
 
 - Android Lock Task ile kiosk modu; uygulama **Device Owner** olduğunda tam kilit.
 - Ana ekran (HOME) launcher'ı; izin verilen uygulamalar ızgarada listelenir.
